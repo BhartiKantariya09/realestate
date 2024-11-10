@@ -1,0 +1,209 @@
+<!DOCTYPE HTML>
+<html lang='en'>
+
+<head>
+	<meta charset="utf=8">
+	<meta http-equiv="X-UA-compatible" content="IE-edge">
+	<meta name='viewport' content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+	<link rel="script" type="text/javascript" href="app.js">
+	<title>REAL ESTATE</title>
+</head>
+<script type="text/javascript">
+	function minus()
+	{
+		var v=parseInt(document.getElementById('People'))
+		v=v-1
+		document.getElementById('People')=v
+	}
+	
+</script>
+
+<body>
+	<header>
+		<nav>
+			<h4><i class="bi bi-houses-fill"></i>House</h4>
+			<div class='right_bx'>
+				<ul>
+					<li><a href="#">Support</a></li>
+					<li><a href="#"><i class="bi bi-globe"></i>Language</a></li>
+					<li><a href="#">List Your Property</a></li>
+				</ul>
+				<div class="account_bx">
+					<i class="bi bi-app-indicator"></i>
+					<i class="bi bi-person-circle"></i> 
+				</div>
+				
+		</nav>
+		<div class="content">
+			<div class="cont_bx">
+				<h1>Kantariya<br>House</h1>
+				<p>3 bedroom, 1 kitchen, 2 bathroom</p>
+				<div class="weather">
+					<h6>42 °C<span> Very Hot</span></h6>
+				</div>
+
+				<div class="btns_cont">
+					<i class="bi bi-arrow-left"></i></i>
+					<i class="bi bi-arrow-right"></i>
+				</div>
+
+				<div class="images_bx">
+					<div class="card">
+						<img src="img/bg16.jpeg">
+					</div>
+					<div class="card">
+						<img src="img/bg15.jpeg">
+					</div>
+					<div class="card">
+						<img src="img/bg2.jpeg" alt="">
+						<h6>+6</h6>
+					</div>
+				</div>
+			</div>
+			<div class="choose_bx">
+				<div class="stay_bx">
+					<button><i class="bi bi-house-add-fill"></i></button>
+					<button><i class="bi bi-star-fill"></i></button>
+					<button><i class="bi bi-tv-fill"></i></button>
+				</div>
+				<div class="select">
+					<div class="card">
+						<h5>City</h5>
+						<input type="text" value="Mumbai">
+						<input type="text " value="India">
+					</div>
+					<div class="card">
+						<h5>People</h5>
+						<input type="text" value="4 People" id="people">
+						<button id="people_less">Less</button>
+						<button id="people_more">More</button>
+					</div>
+					<div class="card">
+						<div class="left_box">
+						<h5>CHECK IN</h5>
+						<div class="date">
+							<h3 id="checkin_data">Sat, 31 jan</h3>
+							<input type="date" id="checkin" value="2022-09-21">
+							<i class="bi bi-calendar2-week-fill"></i>
+						</div>
+						<button>Less</button>
+						<button>More</button>
+					</div>
+					<div class="right_box">
+						<h5>CHECK OUT</h5>
+						<div class="date">
+							<h3 id="checkout_data">Sun, 01 Feb</h3>
+							<input type="date" id="checkout" value="2022-09-21">
+							<i class="bi bi-calendar2-week-fill"></i>
+					</div>
+					<button>Less</button>
+					<button>More</button>
+				</div>
+			</div>
+
+		</div>
+	</header>
+	<div class="map">
+		<div class="address_bx">
+			<div class="location_bx">
+				<h6>Location</h6>
+				<h4>Kantariya Villa</h4>
+			</div>
+			<i class="bi bi-fullscreen-exit"></i>
+		</div>
+		<iframe src="https://my.atlistmaps.com/map/4035dd0c-cf6f-4879-980c-8bf68fe4ff5f?share=true" allow="geolocation" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+	</div>
+
+	<div class="home">
+		<div class="title_button">
+			<h2>Explore More Houses</h2>
+				<button>See All<i class="bi bi-arrow-right"></i></button>
+		</div>
+		<div class="home_bx">
+			<div class="card">
+				<img src="img/bg15.jpeg" alt="">
+				<div class="content">
+					<i class="bi bi-balloon-heart"></i>
+					<div class="cont">
+						<h4>India</h4>
+						<p>India</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/bg9.jpeg" alt="">
+				<div class="content">
+					<i class="bi bi-balloon-heart"></i>
+					<div class="cont">
+						<h4>Dubai</h4>
+						<p>United Arb Emiratres</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/bg10.jpeg" alt="">
+				<div class="content">
+					<i class="bi bi-balloon-heart"></i>
+					<div class="cont"> 
+						<h4>abu Dhabi</h4>
+						<p>United Arb Emiratres</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/bg2.jpeg" alt="">
+				<div class="content">
+					<i class="bi bi-balloon-heart"></i>
+					<div class="cont">
+						<h4>USA</h4>
+						<p>United State</p>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<img src="img/bg15.jpeg" alt="">
+				<div class="content">
+					<i class="bi bi-balloon-heart"></i>
+					<div class="cont">
+						<h4>CANADA</h4>
+						<p>United King</p>
+					</div>
+				</div>
+			</div>
+	   </div>
+	</div>
+
+	<section>
+		<h2>Our Services</h2>
+		<div class="box">
+			<div class="im_bx">
+				<img src="img\bg1.jpeg" alt="" height="300">
+			</div>
+
+			<div class="cnt_bx">
+				<h6><span>OUR SERVICE</span></h6>
+				<h1>Comfort is our<br>Top Priority for you</h1>
+				<p>This website used by Real Estate  Website</p>
+				<ul>
+					<li>Web development </li>
+					<li>Website Design</li>
+					<li>Marketing Team Work</li>
+					<li>Local area Network</li>
+				</ul>
+			</div>
+
+	    </div> 
+    </section>
+</div>
+<div style="clear: both">
+	</div>
+
+
+     <footer>
+		<p style="color: aliceblue;">© 2024 All rights reserved by <a href="#" target="_blank" style="text-decoration: none; color: aliceblue;">Bhargavi Kantariya</a></p>
+	 </footer>
+	<script src="app.js"></script>
+</body>
+</html>
